@@ -1,0 +1,152 @@
+body{
+  font-family: 'Spartan', sans-serif;
+  text-align: left;
+  color:hsl(300, 43%, 22%);
+}
+
+.container-fluid{
+  padding: 5% 15%;
+}
+
+.top-box{
+  padding-bottom: 7%
+}
+
+.introduction{
+  font-family: 'Spartan', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-right: 20%;
+  padding-bottom:5px;
+}
+
+.introduction-detail{
+  font-size: 0.8rem;
+  font-weight: lighter;
+  width: 80%;
+}
+
+.ratings{
+  font-weight: bold;
+}
+
+.rating-types{
+position: relative;
+background-color: hsl(300, 24%, 96%);
+padding: 100px solid hsl(300, 24%, 96%);
+border: 6px solid white;
+line-height: 2.5;
+font-size: 0.8rem;
+}
+
+.reviews{
+  right:60px
+}
+
+.reports-guru{
+  right: 30px
+}
+
+
+.testimonials{
+  color: hsl(300, 24%, 96%);
+}
+
+.testimonial-inner{
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(300, 24%, 96%);
+  font-size: 0.7rem;
+  font-weight:lighter;
+  padding: 20px;
+  border-radius: 5%;
+}
+
+.testimonial-name{
+  width: 90%;
+}
+
+.testimonial-2{
+  margin-top: 20px;
+}
+
+.testimonial-3{
+  margin-top: 40px;
+}
+
+.rounded-circle{
+  position: relative;
+  width: 40px;
+}
+
+.name-pic{
+  padding-bottom: 20px;
+}
+
+.verified-buyer{
+  color: hsl(333, 80%, 67%);
+}
+
+.attribution {
+  position: relative;
+  font-size: 11px;
+  text-align: center;
+  bottom: 0;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 767px) {
+  body{
+    text-align: center;
+    padding:0 5%;
+    line-height: 1
+  }
+  .container-fluid{padding: 2px;
+  }
+
+  .introduction{
+    padding:20% 10% 5%;
+  }
+
+  .introduction-detail{
+    padding: 0 5% 10%;
+    line-height: 1.5;
+  }
+
+  .testimonials{
+    text-align: left;
+  }
+
+  .ratings{
+  padding: 0 10%;
+    border: 0
+  }
+
+  .reviews{
+    right:0
+  }
+
+  .reports-guru{
+    right: 0
+  }
+
+  .stars{
+  align-items: center;
+  }
+
+  .testimonials{
+    padding: 0 10%;
+    line-height: 1.5;
+  }
+
+  .testimonial-2{
+    margin-top: 20px;
+  }
+
+  .testimonial-3{
+    margin-top: 20px;
+  }
+
+}
